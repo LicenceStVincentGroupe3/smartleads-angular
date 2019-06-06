@@ -41,9 +41,9 @@ Then execute this command to clone our project.
 ```
 $ git clone git@github.com:LicenceStVincentGroupe3/smartleads-angular.git
 ```
-Once the project cloned, go to the newly created folder titled "mini-projet-mangas"
+Once the project cloned, go to the newly created folder titled "smartleads-angular"
 ```
-$ cd mini-projet-mangas
+$ cd smartleads-angular
 ```
 Execute this command who will installs a package, and any packages that it depends on.
 ```
@@ -98,9 +98,9 @@ Ensuite exécutez cette commande pour cloner notre projet :
 $ git clone git@github.com:LicenceStVincentGroupe3/smartleads-angular.git
 ```
 
-Une fois le projet cloné, accédez au dossier nouvellement créé intitulé "mini-projet-mangas".
+Une fois le projet cloné, accédez au dossier nouvellement créé intitulé "smartleads-angular".
 ```
-$ cd mini-projet-mangas
+$ cd smartleads-angular
 ```
 Puis lancez cette commande qui va installer un package et tous les packages dont il dépend.
 ```
