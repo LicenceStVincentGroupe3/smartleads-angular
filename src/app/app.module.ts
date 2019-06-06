@@ -18,6 +18,18 @@ import { PerformanceMonitoringChartComponent } from './performance-monitoring-ch
 import { ChartQualityComponent } from './chart-quality/chart-quality.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
+// Import angular-fusioncharts
+import { FusionChartsModule } from 'angular-fusioncharts';
+// Import FusionCharts library and chart modules
+import * as FusionCharts from 'fusioncharts';
+import * as FusionMaps from 'fusioncharts/fusioncharts.maps';
+import * as Francedepartment from 'fusionmaps/maps/fusioncharts.francedepartment';
+import * as CanvasJS from 'canvasjs';
+import * as FusionTheme from 'fusioncharts/themes/fusioncharts.theme.fusion';
+
+// Pass the fusioncharts library and chart modules
+FusionChartsModule.fcRoot(FusionCharts, FusionMaps, Francedepartment, FusionTheme);
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,7 +50,8 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
   ],
   imports: [
     BrowserModule,
-    NgbModule
+    NgbModule,
+    FusionChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
