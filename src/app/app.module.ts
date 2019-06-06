@@ -16,6 +16,7 @@ import { OperationsChartComponent } from './operations-chart/operations-chart.co
 import { PerformanceMonitoringComponent } from './performance-monitoring/performance-monitoring.component';
 import { PerformanceMonitoringChartComponent } from './performance-monitoring-chart/performance-monitoring-chart.component';
 import { ChartQualityComponent } from './chart-quality/chart-quality.component';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ChartQualityComponent } from './chart-quality/chart-quality.component';
     ChartQualityComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
