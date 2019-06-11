@@ -16,7 +16,6 @@ import { OperationsChartComponent } from './operations-chart/operations-chart.co
 import { PerformanceMonitoringComponent } from './performance-monitoring/performance-monitoring.component';
 import { PerformanceMonitoringChartComponent } from './performance-monitoring-chart/performance-monitoring-chart.component';
 import { ChartQualityComponent } from './chart-quality/chart-quality.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 // Import angular-fusioncharts
 import { FusionChartsModule } from 'angular-fusioncharts';
@@ -26,6 +25,8 @@ import * as FusionMaps from 'fusioncharts/fusioncharts.maps';
 import * as Francedepartment from 'fusionmaps/maps/fusioncharts.francedepartment';
 import * as CanvasJS from 'canvasjs';
 import * as FusionTheme from 'fusioncharts/themes/fusioncharts.theme.fusion';
+
+// import {ApexCharts} from 'apexcharts';
 
 // Pass the fusioncharts library and chart modules
 FusionChartsModule.fcRoot(FusionCharts, FusionMaps, Francedepartment, FusionTheme);
@@ -50,7 +51,6 @@ FusionChartsModule.fcRoot(FusionCharts, FusionMaps, Francedepartment, FusionThem
   ],
   imports: [
     BrowserModule,
-    NgbModule,
     FusionChartsModule
   ],
   providers: [],
