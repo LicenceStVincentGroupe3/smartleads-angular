@@ -1,3 +1,18 @@
 .bord-arrondis {
     border-radius: 1rem;
 }
+
+.logo-container {
+	margin-bottom: 3%;
+}
+
+.logo img {
+	width: 70%;
+}
+
+.logo ~ button {
+	width: 30%;
+    margin-left: 15%;
+    height: 25px;
+    font-size: 10px;
+}
