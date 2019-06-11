@@ -1,12 +1,9 @@
-import { Component, OnInit } from '@angular/core';
-
+import {Component} from '@angular/core';
 @Component({
   selector: 'app-francemap',
-  templateUrl: './francemap.component.html',
-  styleUrls: ['./francemap.component.css']
+  templateUrl: './francemap.component.html'
 })
-export class FrancemapComponent implements OnInit {
-
+export class FrancemapComponent {
   dataSource: Object;
   constructor() {
     this.dataSource = {
@@ -42,7 +39,7 @@ export class FrancemapComponent implements OnInit {
 
       },
       "data": [
-          {"id":"FR.AI","value":34}, {"id":"FR.AS","value":82},
+        {"id":"FR.AI","value":34}, {"id":"FR.AS","value":82},
         {"id":"FR.AL","value":80}, {"id":"FR.AP","value":11},
         {"id":"FR.AM","value":92}, {"id":"FR.AH","value":30},
         {"id":"FR.AN","value":15}, {"id":"FR.AG","value":28},
@@ -93,8 +90,4 @@ export class FrancemapComponent implements OnInit {
         {"id":"FR.ME","value":39},{"id":"FR.GD"}]
     }
   }
-
-  ngOnInit() {
-  }
-
 }

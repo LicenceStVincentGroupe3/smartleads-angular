@@ -16,7 +16,7 @@ import { OperationsChartComponent } from './operations-chart/operations-chart.co
 import { PerformanceMonitoringComponent } from './performance-monitoring/performance-monitoring.component';
 import { PerformanceMonitoringChartComponent } from './performance-monitoring-chart/performance-monitoring-chart.component';
 import { ChartQualityComponent } from './chart-quality/chart-quality.component';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 // Import angular-fusioncharts
 import { FusionChartsModule } from 'angular-fusioncharts';
