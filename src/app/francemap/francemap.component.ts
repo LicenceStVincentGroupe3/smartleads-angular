@@ -87,7 +87,7 @@ export class FrancemapComponent {
         {"id":"FR.VG","value":48},{"id":"FR.VO","value":84},
         {"id":"FR.VR","value":88},{"id":"FR.VC","value":48},
         {"id":"FR.YV","value":48},{"id":"FR.YO","value":48},
-        {"id":"FR.ME","value":39},{"id":"FR.GD"}]
+        {"id":"FR.ME","value":39},{"id":"FR.GD","displayValue":'visible'}]
     }
   }
 }
