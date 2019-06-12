@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { FrancemapComponent } from './francemap/francemap.component';
@@ -51,7 +52,8 @@ FusionChartsModule.fcRoot(FusionCharts, FusionMaps, Francedepartment, FusionThem
   ],
   imports: [
     BrowserModule,
-    FusionChartsModule
+    FusionChartsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
