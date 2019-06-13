@@ -57,7 +57,6 @@ export class OperationsChartComponent implements OnInit {
     }
 
     // let chart = new ApexCharts(document.querySelector('#chart'), options);
-
     // chart.render();
   }
 
