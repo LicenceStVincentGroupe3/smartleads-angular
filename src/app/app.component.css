@@ -51,52 +51,12 @@
     border-radius: 0px;
 }
 
-.stats-vert {
-    color: #1fbc43;
-    font-weight: bold;
-}
-
-.stats-rouge {
-    color: #f80802;
-    font-weight: bold;
-}
-
 .dashboard-stats-text {
     font-size: 0.80rem;
 }
 
 .fa-opacity {
     opacity: 0.5;
-}
-
-.hr-red {
-    background:red;
-    border: 1px solid;
-    border-color: red;
-}
-
-.hr-orange {
-    background:orange;
-    border: 1px solid;
-    border-color: orange;
-}
-
-.hr-yellow {
-    background:yellow;
-    border: 1px solid;
-    border-color: yellow;
-}
-
-.hr-lightgreen {
-    background:lightgreen;
-    border: 1px solid;
-    border-color: lightgreen;
-}
-
-.hr-green {
-    background:green;
-    border: 1px solid;
-    border-color: green;
 }
 
 .small-text {
@@ -109,7 +69,7 @@
 }
 
 .titre-angular {
-    font-size: 1.1em;
+    font-size: 1em;
     color: black;
 }
 
