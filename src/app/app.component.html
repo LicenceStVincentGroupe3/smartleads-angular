@@ -1,62 +1,73 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <img width="300" alt="Angular Logo" src="../assets/img/hafa.png">
-  <br>
-  <button type="button" class="btn btn-success bord-arrondis">RETOUR</button>
+<div class="row">
+  <div class="col-lg-4 mx-auto">
+    <div class="row logo-container">
+      <div class="col-lg-6 mx-auto">
+        <div class="logo">
+          <img alt="Angular Logo" src="../assets/img/hafa.png">
+        </div>
 
-  <h4></h4>
-  <h3>PERFORMANCE COMMERCIALE</h3>
-  <h3>TABLEAU DE BORD</h3>
-</div>
-
-<div class="container pb-5">
-  <div class="row justify-content-left mt-5">
-      <div class="row">
-        <div class="col-lg-6 col-sm-6 pt-4">
-          <app-performance-monitoring-chart></app-performance-monitoring-chart>
-        </div>
-        <div class="col-lg-6 col-sm-6 pt-4">
-          <app-commercial-month></app-commercial-month>
-        </div>
-        <div class="col-md-8">
-          <div class="row">
-            <div class="col-lg-3 col-sm-6">
-              <app-new-contact></app-new-contact>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <app-new-company></app-new-company>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <app-new-mails></app-new-mails>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <app-active-operations></app-active-operations>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <app-active-contact></app-active-contact>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <app-active-company></app-active-company>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <app-all-mails></app-all-mails>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <app-achieve-operations></app-achieve-operations>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="col-lg-12 col-sm-12">
-            <app-operations-chart></app-operations-chart>
-          </div>
-        </div>
-        <div class="col-lg-12 col-sm-12 pt-4">
-          <app-performance-monitoring></app-performance-monitoring>
-        </div>
-        <div class="col-lg-12 col-sm-12 pt-4">
-          <app-chart-quality></app-chart-quality>
-        </div>
+        <button type="button" class="btn btn-success bord-arrondis">RETOUR</button>
       </div>
+
+
+      <div class="col-lg-6 mx-auto">
+        <h4></h4>
+        <h3>PERFORMANCE COMMERCIALE</h3>
+        <h4>TABLEAU DE BORD</h4>
+      </div>
+    </div>
+      <app-performance-monitoring-chart></app-performance-monitoring-chart>
+      <app-commercial-month></app-commercial-month>
+  </div>
+
+  <div class="col-lg-8 mx-auto">
+    <div class="container pb-5">
+      <div class="row justify-content-left mt-5">
+          <div class="row">
+            
+            
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                  <app-new-contact></app-new-contact>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <app-new-company></app-new-company>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <app-new-mails></app-new-mails>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <app-active-operations></app-active-operations>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <app-active-contact></app-active-contact>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <app-active-company></app-active-company>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <app-all-mails></app-all-mails>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <app-achieve-operations></app-achieve-operations>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="col-lg-12 col-sm-12">
+                <app-operations-chart></app-operations-chart>
+              </div>
+            </div>
+            <div class="col-lg-12 col-sm-12 pt-4">
+              <app-performance-monitoring></app-performance-monitoring>
+            </div>
+            <div class="col-lg-12 col-sm-12 pt-4">
+              <app-chart-quality></app-chart-quality>
+            </div>
+          </div>
+      </div>
+    </div>
   </div>
 </div>
