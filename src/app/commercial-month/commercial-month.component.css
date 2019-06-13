@@ -1,0 +1,17 @@
+.dashboard-stats-text {
+    font-size: 0.80rem;
+}
+
+.dashboard-score-commerciaux {
+    background-color: #ffa331;
+    color: white;
+    font-weight: bold;
+    padding: 5px 8px 5px 8px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.stats-vert {
+    color: #1fbc43;
+    font-weight: bold;
+}
