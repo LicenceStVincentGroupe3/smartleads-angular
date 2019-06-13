@@ -1,0 +1,56 @@
+ul {
+    list-style-type: none;
+}
+
+.dashboard-stats-text {
+    font-size: 0.70rem;
+}
+
+.superieur100{
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background: #3A507E;
+}
+
+.compris50-100{
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background: #4b6b91;
+}
+
+.compris25-50{
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background: #6c80a0;
+}
+
+.compris15-25{
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background: #68788f;
+}
+
+.compris10-15{
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background: #a6acbe;
+}
+
+.compris5-10{
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background: #b3bdcd;
+}
+
+.inferieur5{
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background: #ebe1eb;
+}

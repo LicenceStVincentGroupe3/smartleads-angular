@@ -1,0 +1,29 @@
+.hr-red {
+    background:red;
+    border: 1px solid;
+    border-color: red;
+}
+
+.hr-orange {
+    background:orange;
+    border: 1px solid;
+    border-color: orange;
+}
+
+.hr-yellow {
+    background:yellow;
+    border: 1px solid;
+    border-color: yellow;
+}
+
+.hr-lightgreen {
+    background:lightgreen;
+    border: 1px solid;
+    border-color: lightgreen;
+}
+
+.hr-green {
+    background:green;
+    border: 1px solid;
+    border-color: green;
+}
