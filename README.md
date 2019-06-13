@@ -1,4 +1,4 @@
-# Smartleads-Angular | English version
+# Smartleads-Angular | English version <img width="30px" src="https://citusmigrate.fpt-software.jp/wp-content/themes/citusmigrate/imgs/United-Kingdom-flag-icon.png">
 ## Table of contents
 * [General info](#general-info)
 * [Technologies / Tools](#technologies--tools)
@@ -59,7 +59,7 @@ If, as a result of this command, the browser does not automatically open, go to 
 You can consult the angular documentation : https://angular.io/guide/quickstart
 
 
-# Smartleads-Angular | Version Francaise
+# Smartleads-Angular | Version Francaise <img width="30px" src="http://files.softicons.com/download/internet-cons/flag-icons-by-custom-icon-design/ico/France-Flag.ico">
 ## Table des matières
 * [Informations générales](#informations-générales)
 * [Technologies / Outils](#technologies--outils)
