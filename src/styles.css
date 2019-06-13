@@ -11876,7 +11876,19 @@ body.sidebar-toggled {
 
 .total-bloc-container {
   max-width: 18rem;
-  height: 215px;
+  height: 230px;
+}
+
+.francemap-container {
+  height: 750px;
+}
+
+.perf-container {
+  height: 400px;
+}
+
+.commercial-month-container, .chart-quality-container {
+  height: 150px;
 }
 
 .dashbord-container {
