@@ -11873,3 +11873,13 @@ body.sidebar-toggled {
 .contentBody-container {
   padding: 3%;
 }
+
+.total-bloc-container {
+  max-width: 18rem;
+  height: 215px;
+}
+
+.dashbord-container {
+  padding-left: 3%;
+  padding-right: 3%;
+}
