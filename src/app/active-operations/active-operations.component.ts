@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GetNbEntityService } from '../get-nb-entity.service';
 
 @Component({
   selector: 'app-active-operations',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ActiveOperationsComponent implements OnInit {
 
-  constructor() { }
+    constructor(private nbEntityService: GetNbEntityService) {
+    }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
+        this.nbEntityService.getNbEntity('http://localhost:8000/api/operations/').then(
+            res => {
+                /*console.log(res);*/ /*Décommentez pour voir le resultat dans la console*/
+            }
+        ).catch( e => {
+            alert('error fetching data');
+        });
+    }
 
 }
