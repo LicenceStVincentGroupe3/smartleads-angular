@@ -5,25 +5,26 @@ import {Component} from '@angular/core';
   styleUrls: ['./francemap.component.css']
 })
 export class FrancemapComponent {
-  dataSource: Object;
+  dataSource: object;
   constructor() {
     this.dataSource = {
       "chart": {
         "animation": "0",
         "showbevel": "0",
-        "usehovercolor": "1",
+        "useHoverColor": true,
         "canvasbordercolor": "FFFFFF",
         "bordercolor": "FFFFFF",
         "showlegend": "0",
         "legendposition": "BOTTOM",
         "legendborderalpha": "0",
-        "legendbordercolor": "ffffff",
+        "legendbordercolor": "FFFFFF",
         "legendallowdrag": "0",
         "legendshadow": "0",
         "caption": "",
         "connectorcolor": "000000",
         "fillalpha": "80",
-        "hovercolor": "CCCCCC",
+        "entityFillHoverColor": "#e20000",
+        "hovercolor": "FFFFFF",
         "showborder": 1,
         "theme": "fusion"
       },
@@ -93,6 +94,6 @@ export class FrancemapComponent {
         {"id":"FR.MN", "color":"white", "useHoverColor":false, "showToolTip":false},
         {"id":"FR.MT", "color":"white", "useHoverColor":false, "showToolTip":false},
         {"id":"FR.RN", "color":"white", "useHoverColor":false, "showToolTip":false}]
-    }
+    };
   }
 }
