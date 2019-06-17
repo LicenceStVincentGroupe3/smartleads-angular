@@ -53,7 +53,7 @@ FusionChartsModule.fcRoot(FusionCharts, FusionMaps, Francedepartment, FusionThem
   imports: [
     BrowserModule,
     FusionChartsModule,
-    HttpClientModule
+      HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
